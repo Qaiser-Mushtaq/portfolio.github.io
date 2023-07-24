@@ -21,6 +21,17 @@
     <link rel="stylesheet" href="css/flaticon.css">
     <link rel="stylesheet" href="css/icomoon.css">
     <link rel="stylesheet" href="css/style.css">
+	<style>
+		.carousel-inner{
+			 height: 200px;
+		}
+		
+		.item, img{
+			height: 50% !important;
+			width:  20% !important;
+			border: 1px solid red;
+		}
+	</style>
   </head>
   <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
 	  
@@ -48,41 +59,40 @@
 	  </nav>
 
 	  
+<div style="margin-top:-240px; margin-bottom:-80px;">
 
-
-	  <section id="home-section" class="hero" style="margin-top: -120px;">
-		  <div   >
-	      <div >
-	      	<div ></div>
-	        <div class="container">
-	          <div  class="row d-md-flex no-gutters slider-text align-items-end justify-content-end" data-scrollax-parent="true">
-	          	<div class="one-third js-fullheight order-md-last img" style="background-image:url(images/bg_1.jpg);">
-	          		<div class="overlay" "></div>
+	  <section id="home-section " class="hero" >
+		  <div class="home-slider  owl-carousel " >
+	      <div class="slider-item" >
+	      	<div class="overlay "></div>
+	        <div class="container ">
+	          <div  class=" row d-md-flex no-gutters slider-text align-items-end justify-content-end" data-scrollax-parent="true">
+	          	<div class="one-third js-fullheight order-md-last img h-75 "  style="background-image:url(images/bg_1.jpg);">
+	          		<div class="overlay" 	></div>
 	          	</div>
 		          <div class="one-forth d-flex  align-items-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
-		          	<div class="text">
+		          	<div class="text" style="margin-top:300px;">
 		          		<span class="subheading">Hello!</span>
 			            <h1 class="mb-4 mt-3">I'm <span>Qaiser Shah</span></h1>
 			            <h2 class="mb-4">A Freelance Web Designer</h2>
-			            <p><a href="#" class="btn btn-primary py-3 px-4">Hire me</a> <a href="#" class="btn btn-white btn-outline-white py-3 px-4">My works</a></p>
 		            </div>
 		          </div>
 	        	</div>
 	        </div>
 	      </div>
 
-	      <div class="slider-item">
+	      <div class="slider-item h-50">
 	      	<div class="overlay"></div>
 	        <div class="container">
 	          <div class="row d-flex no-gutters slider-text align-items-end justify-content-end" data-scrollax-parent="true">
-	          	<div class="one-third js-fullheight order-md-last img" style="background-image:url(images/bg_1.jpg);">
+	          	<div class="one-third js-fullheight order-md-last img h-75" style="background-image:url(images/bg_1.jpg);">
 	          		<div class="overlay"></div>
 	          	</div>
 		          <div class="one-forth d-flex align-items-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
-		          	<div class="text">
+		          	<div class="text" style="margin-top:300px;">
 		          		<span class="subheading">Hello!</span>
 			            <h1 class="mb-4 mt-3">I'm a <span>web designer</span> based in India</h1>
-			            <p><a href="#" class="btn btn-primary py-3 px-4">Hire me</a> <a href="#" class="btn btn-white btn-outline-white py-3 px-4">My works</a></p>
+			            
 		            </div>
 		          </div>
 	        	</div>
@@ -90,8 +100,8 @@
 	      </div>
 	    </div>
     </section>
-
-    <section style="margin-top: -120 px;" class="ftco-about img ftco-section ftco-no-pb" id="about-section">
+</div>
+    <section class="ftco-about img ftco-section ftco-no-pb" id="about-section">
     	<div class="container">
     		<div class="row d-flex">
     			<div class="col-md-6 col-lg-5 d-flex mb-5 pb-20">
